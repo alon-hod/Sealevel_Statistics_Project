@@ -16,6 +16,8 @@ The main goal of this project is to analyze sea level data using statistical met
 │   └── sealevel-timeseries.py      # Script for time series analysis on sea level data
 └── output/                         # Folder with the outputs from the Spearman correlation script
 ```
+
+
 <h2>Files and Folders</h2>
 1. Final_project-Sea_level.ipynb
 This Jupyter notebook serves as the main file for the project. It runs the following analyses:
