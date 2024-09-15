@@ -23,9 +23,10 @@ The main goal of this project is to analyze sea level data using statistical met
 1. `Final_project-Sea_level.ipynb`
 This Jupyter notebook serves as the main file for the project. It runs the following analyses:
 
-Spearman correlation analysis using the script `correlation/spearmans.py`.
-Sea level regression model from the script `models/sealevel-reg3.py`.
-Time series analysis using `models/sealevel-timeseries.py`.
+* Spearman correlation analysis using the script `correlation/spearmans.py`.
+* Sea level regression model from the script `models/sealevel-reg3.py`.
+* Time series analysis using `models/sealevel-timeseries.py`.
+
 You can run the notebook to reproduce all analyses and outputs.
 
 2. `sl_withmoon.csv`
@@ -40,20 +41,20 @@ This Python script performs Spearman's correlation analysis to explore the relat
 5. `models/`
 This folder contains the Python scripts used for modeling:
 
-`sealevel-reg3.py`: A script implementing a regression model to predict sea level changes based on various factors.
-`sealevel-timeseries.py`: A time series analysis script that forecasts future sea level changes based on historical data.
+* `sealevel-reg3.py`: A script implementing a regression model to predict sea level changes based on various factors.
+* `sealevel-timeseries.py`: A time series analysis script that forecasts future sea level changes based on historical data.
 6. `output/`
 This folder contains the outputs generated from running the Spearman correlation analysis in the `spearmans.py` script.
 
 <h2>How to Run the Project</h2>
 
-Clone the repository:
+1. Clone the repository:
 ```bash
 git clone <repository-url>
 cd <repository-folder>
 ```
-Install the required dependencies:
+2. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-Run the Jupyter notebook Final_project-Sea_level.ipynb to execute the analyses and generate outputs.
+3. Run the Jupyter notebook Final_project-Sea_level.ipynb to execute the analyses and generate outputs.
