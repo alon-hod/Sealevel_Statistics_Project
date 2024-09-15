@@ -1,5 +1,5 @@
 <h1>Sea Level Analysis - Final Project</h1>
-This repository contains the final project for my statistics course, focusing on sea level changes and its relationship with various factors. Below is an overview of the structure and contents of this repository, along with instructions on how to use the code and data.
+This repository contains the final project for our statistics course, focusing on sea level changes and its relationship with various factors. Below is an overview of the structure and contents of this repository, along with instructions on how to use the code and data.
 
 <h2>Project Overview</h2>
 The main goal of this project is to analyze sea level data using statistical methods and predictive modeling. The analysis covers correlation testing and time series modeling, utilizing Python to perform computations and visualizations.
