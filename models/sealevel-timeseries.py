@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 co2_path = 'raw_data/co2.csv'
 sealevel_path = 'raw_data/sealevel.csv'
 temp_path = 'raw_data/temp.csv'
-sealevel_df.to_csv('sealevel_df.csv')
+# sealevel_df.to_csv('sealevel_df.csv')
 # Read the CSV files
 co2_df = pd.read_csv(co2_path)
 sealevel_df = pd.read_csv(sealevel_path)

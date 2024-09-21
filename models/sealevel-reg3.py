@@ -201,7 +201,7 @@ def create_and_evaluate_model(remove_columns=None):
     # Make predictions on the future data
     future_predictions = ols_model.predict(X_encoded_future)
     future_df['SeaLevel_Predicted'] = future_predictions
-    
+    print("This did work!")
     for co2_level in [400, 1200]:
         preds = future_df[future_df['average'] == co2_level]['SeaLevel_Predicted'].values
         print(f"Predicted Sea Levels at CO2 = {co2_level} ppm for each month in 2100: {preds}")
@@ -214,3 +214,5 @@ def create_and_evaluate_model(remove_columns=None):
 # create_and_evaluate_model(remove_columns=['Temperature','month'])
 create_and_evaluate_model(remove_columns=['month'])
 # create_and_evaluate_model(remove_columns=['Temperature'])
+pd.__version__
+np.__version__
